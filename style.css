@@ -1,0 +1,45 @@
+body {
+	background-color: #312c38
+}
+
+h1 {
+	font-family: verdana ;
+	color: #FFFFFF ;
+	}
+	
+	h3 {
+	font-family: verdana ;
+	color: #FFFFFF ;
+	}
+	
+	a {
+	font-family: verdana ;
+	}
+	
+	p {
+	font-family: verdana ;
+	color: #FFFFFF ;
+}
+
+table {
+	font-family: verdana ;
+}
+
+th {
+	color: #FFFFFF
+}
+
+a:link {
+	font-family: verdana ;
+	color: #c0c0c0 ; 
+}
+
+a:visited {
+	font-family: verdana ;
+	color: #776690
+}
+
+a:hover {
+	font-family: verdana ;
+	color: #add8e6 ;
+}
