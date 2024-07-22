@@ -31,15 +31,29 @@ p {
 
 table {
 	font-family: verdana ;
-}
-
-th {
 	color: #FFFFFF
 }
 
 img {
 	color: #00ff00 ;
 	font-family: monospace ;
+}
+
+img.one {
+	display: block ;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 15px ;
+	height: 35% ;
+	width: 35% ;
+}
+
+img.wrap {
+	float: left ;
+	padding-left: 10px ;
+	padding-right: 15px ;
+	height: 35% ;
+	width: 35% ;
 }
 
 a:link {
