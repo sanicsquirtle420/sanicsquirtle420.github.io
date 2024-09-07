@@ -3,7 +3,6 @@ header {
 	padding: 25px ;
 	text-align: center ;
 	font-size: 30px ;
-	font-family: verdana ;
 }
 
 body {
@@ -11,26 +10,26 @@ body {
 }
 
 h2 {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #000000 ;
 	}
 	
 h3 {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #FFFFFF ;
 	}
 	
 a {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	}
 	
 p {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #FFFFFF ;
 }
 
 table {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #FFFFFF
 }
 
@@ -57,22 +56,22 @@ img.wrap {
 }
 
 a:link {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #c0c0c0 ; 
 }
 
 a:visited {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #776690
 }
 
 a:hover {
-	font-family: verdana ;
+	font-family: "Arimo Nerd Font" ;
 	color: #add8e6 ;
 }
 
 .navContainer {
-	font-family: verdana ; 
+	font-family: "Arimo Nerd Font" ; 
 	color: #ffffff ;
 	background-color: #45404f ;
 	padding: 15px ;
