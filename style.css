@@ -43,8 +43,8 @@ img.one {
 	margin-left: auto ;
 	margin-right: auto ;
 	padding: 15px ;
-	height: 35% ;
-	width: 35% ;
+	height: 45% ;
+	width: 45% ;
 }
 
 img.wrap {
@@ -78,4 +78,8 @@ a:hover {
 	display: flex ;
 	justify-content: flex-start ;
 	gap: 2em
+}
+
+div.systemSpecs {
+	background-color: #3d5057;
 }
