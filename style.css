@@ -5,6 +5,10 @@ header {
 	font-size: 30px ;
 }
 
+div {
+	padding: 2px ;
+}
+
 body {
 	background-color: #312c38 ;
 }
@@ -18,6 +22,11 @@ h3 {
 	font-family: "Arimo Nerd Font" ;
 	color: #FFFFFF ;
 	}
+
+h4 {
+	font-family: "Arimo Nerd Font" ;
+	color: #e2fffb ; 
+}
 	
 a {
 	font-family: "Arimo Nerd Font" ;
@@ -31,6 +40,10 @@ p {
 table {
 	font-family: "Arimo Nerd Font" ;
 	color: #FFFFFF
+}
+
+td {
+	padding-right: 25px ;
 }
 
 img {
@@ -82,4 +95,8 @@ a:hover {
 
 div.systemSpecs {
 	background-color: #3d5057;
+}
+
+div.bottom {
+	background-color: #000000 ;
 }
