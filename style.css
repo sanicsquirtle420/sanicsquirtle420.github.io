@@ -14,31 +14,31 @@ body {
 }
 
 h2 {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #000000 ;
 	}
 	
 h3 {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #FFFFFF ;
 	}
 
 h4 {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #e2fffb ; 
 }
 	
 a {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	}
 	
 p {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #FFFFFF ;
 }
 
 table {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #FFFFFF
 }
 
@@ -69,34 +69,43 @@ img.wrap {
 }
 
 a:link {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #c0c0c0 ; 
 }
 
 a:visited {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #b69ddd
 }
 
 a:hover {
-	font-family: "Arimo Nerd Font" ;
+	font-family: "Open Sans" ;
 	color: #add8e6 ;
 }
 
-.navContainer {
-	font-family: "Arimo Nerd Font" ; 
+.navigationBar {
+	font-family: "Open Sans" ; 
 	color: #ffffff ;
 	background-color: #45404f ;
 	padding: 15px ;
 	display: flex ;
 	justify-content: flex-start ;
-	gap: 2em
+	gap: 5px ;
 }
 
-div.systemSpecs {
+div.blueBackground {
 	background-color: #314952;
 }
 
 div.bottom {
 	background-color: #000000 ;
 }
+
+.open-sans-<openSans> {
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <300>;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100;
+  }
