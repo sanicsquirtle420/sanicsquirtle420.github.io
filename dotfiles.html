@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<!-- metadata for mobile phones -->
+		<meta name="viewport" content="initial-scale=1 , width=device-width">
+		<!-- metadata for website -->
+		<meta charset="UTF-8">
+		<meta property="og:title" content="SanicSquirtle428">
+		<meta property="author" content="Diego R. / SanicSquirtle428">
+		<meta property="description" content="SanicSquirtle428's GitHub pages website for his dotfiles">
+
 		<title>Dotfiles</title>
 		<link rel="icon" type="image/x-icon" href="assets/raccoon32x32.png">
 		<link rel="stylesheet" href="style.css">
@@ -9,6 +17,8 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
 			rel="stylesheet">
+
+		<script type="text/javascript" src="javascript/year.js"></script>
 	</head>
 
 	<style>
@@ -24,7 +34,7 @@
 	<body>
 		<div class="navigationBar">
 			<div class="item main"><a href="https://sanicsquirtle420.github.io">Home [~/]</a></div>
-            <div class="item img"><a href="#archConfig">Arch Images</a></div>
+            		<div class="item img"><a href="#archConfig">Arch Images</a></div>
 			<div class="item sys"><a href="#systemSpecs">System Specs</a></div>
 			<div class="item pre"><a href="#themePreviews">Theme Previews</a></div>
 		</div>
@@ -97,7 +107,9 @@
 		</div>
 
 		<div class="bottom">
-			<p>This website is hosted by GitHub pages - SanicSquirtle428 (2024)</p>
+			<p><script type="text/javascript">
+				document.write(copystrike + " (" + currentYear.toString() + ")") ;
+			</script></p>
 		</div>
 	</body>
 </html>
