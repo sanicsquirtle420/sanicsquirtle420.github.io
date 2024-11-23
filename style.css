@@ -1,11 +1,20 @@
 header {
 	background-color: #add8e6 ;
 	padding: 25px ;
+}
+header h2 {
 	text-align: center ;
-	font-size: 30px ;
+	font-size: 35px ;
 }
 
-div {
+header img {
+	padding-right: 5px ;
+	height: 45px ;
+	width: 45px ;
+}
+
+footer {
+	background-color: #000000 ;
 	padding: 2px ;
 }
 
@@ -13,12 +22,13 @@ body {
 	background-color: #312c38 ;
 }
 
+/* Text CSS*/
 h2 {
 	font-family: "Open Sans" ;
 	color: #000000 ;
 	}
 	
-h3 {
+h3 , p , table {
 	font-family: "Open Sans" ;
 	color: #FFFFFF ;
 	}
@@ -27,37 +37,41 @@ h4 {
 	font-family: "Open Sans" ;
 	color: #e2fffb ; 
 }
-	
-a {
-	font-family: "Open Sans" ;
-	}
-	
-p {
-	font-family: "Open Sans" ;
-	color: #FFFFFF ;
-}
-
-table {
-	font-family: "Open Sans" ;
-	color: #FFFFFF
-}
 
 td {
 	padding-right: 25px ;
 }
 
+a {
+	font-family: "Open Sans" ;
+}
+
+a:link {
+	color: #c0c0c0 ;
+}
+
+a:visited {
+	color: #b69ddd
+}
+
+a:hover {
+	color: #add8e6 ;
+}
+
+/* Image CSS */
 img {
 	color: #00ff00 ;
 	font-family: monospace ;
+	padding-right: 25px ;
 }
 
-img.one {
+img.center {
 	display: block ;
 	margin-left: auto ;
 	margin-right: auto ;
 	padding: 15px ;
-	height: 45% ;
-	width: 45% ;
+	height: 35% ;
+	width: 35% ;
 }
 
 img.wrap {
@@ -68,44 +82,68 @@ img.wrap {
 	width: 35% ;
 }
 
-a:link {
-	font-family: "Open Sans" ;
-	color: #c0c0c0 ; 
+table img {
+	height: 50px ;
+	width: 50px ;
 }
 
-a:visited {
-	font-family: "Open Sans" ;
-	color: #b69ddd
-}
-
-a:hover {
-	font-family: "Open Sans" ;
-	color: #add8e6 ;
+/* div CSS */
+div {
+	padding: 2px ;
 }
 
 .navigationBar {
-	font-family: "Open Sans" ; 
-	color: #ffffff ;
-	background-color: #45404f ;
-	padding: 15px ;
+	font-family: "Open Sans" ;
 	display: flex ;
 	justify-content: flex-start ;
-	gap: 5px ;
+	color: #ffffff ;
+	background-color: #45404f ;
+	overflow: auto ;
+	white-space: nowrap ;
+}
+
+.navigationBar a {
+	display: flex ;
+	justify-content: flex-start ;
+	color: #ffffff ;
+	text-align: center ;
+	padding: 15px ;
+	text-decoration: none ;
+}
+.navigationBar a:hover {
+	background-color: #b69ddd ;
+}
+
+.theme-aqua a:hover {
+	background-color: #add8e6 ;
+	color: #000000 ;
+}
+
+.theme-mai a:hover {
+	background-color: #1c1e21 ;
+}
+
+.theme-yotsuba a:hover {
+	background-color: #3a4f41 ;
+}
+
+.navigationBar p {
+	text-align: center ;
 }
 
 div.blueBackground {
 	background-color: #314952;
 }
 
-div.bottom {
-	background-color: #000000 ;
+.center {
+	text-align: center ;
 }
 
+/* Font CSS */
 .open-sans-<openSans> {
-	font-family: "Open Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: <300>;
-	font-style: normal;
-	font-variation-settings:
-	  "wdth" 100;
-  }
+				font-family: "Open Sans", sans-serif;
+				font-optical-sizing: auto;
+				font-weight: < 300 >;
+				font-style: normal;
+				font-variation-settings: "wdth" 100;
+			}
