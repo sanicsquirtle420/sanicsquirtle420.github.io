@@ -7,12 +7,6 @@ header h2 {
 	font-size: 35px ;
 }
 
-header img {
-	padding-right: 5px ;
-	height: 45px ;
-	width: 45px ;
-}
-
 footer {
 	background-color: #000000 ;
 	padding: 2px ;
@@ -28,7 +22,7 @@ h2 {
 	color: #000000 ;
 	}
 	
-h3 , p , table {
+h3 , p , table{
 	font-family: "Open Sans" ;
 	color: #FFFFFF ;
 	}
@@ -65,6 +59,12 @@ img {
 	padding-right: 25px ;
 }
 
+header img {
+	padding-right: 5px ;
+	height: 45px ;
+	width: 45px ;
+}
+
 img.center {
 	display: block ;
 	margin-left: auto ;
@@ -72,6 +72,15 @@ img.center {
 	padding: 15px ;
 	height: 35% ;
 	width: 35% ;
+}
+
+img.screenshot {
+	display: block ;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 10px ;
+	height: 45% ;
+	width: 45% ;
 }
 
 img.wrap {
