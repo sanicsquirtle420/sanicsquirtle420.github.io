@@ -19,6 +19,19 @@
 			  rel="stylesheet">
 
 		<script type="text/javascript" src="javascript/year.js"></script>
+
+		<style>
+			.specs {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: 1fr;
+				grid-column-gap: 2px;
+				grid-row-gap: 2px;
+			}
+
+			.div1 { grid-area: 1 / 1 / 2 / 2; }
+			.div2 { grid-area: 1 / 2 / 2 / 3; }
+		</style>
 	</head>
 
 	<body>
@@ -50,35 +63,26 @@
         <br style="clear:both">
 
 		<div class="blueBackground">
-			<table>
-				<tr>
-					<td><h3 id="systemSpecs">System Specs</h3></td>
-				</tr>
-				<tr>
-					<td>CPU</td>
-					<td>Ryzen 7 5800x</td>
-					<td>OS</td>
-					<td><a href="https://archlinux.org">Arch Linux</a></td>
-				</tr>
-				<tr>
-					<td>GPU</td>
-					<td>Radeon RX 6700 XT</td>
-					<td>WM:</td>
-					<td><a href="https://i3wm.org">i3</a></td>
-				</tr>
-				<tr>
-					<td>RAM</td>
-					<td>32 GB DDR4 3200Mhz</td>
-					<td>Terminal:</td>
-					<td><a href="https://github.com/kovidgoyal/kitty">kitty</a></td>
-				</tr>
-				<tr>
-					<td>Motherboard</td>
-					<td>ASRock B550 Steel Legend</td>
-					<td>Additional Apps</td>
-					<td>rofi, polybar, cava, neofetch (rip)</td>
-				</tr>
-			</table>
+			<h3 id="systemSpecs">System Specs</h3>
+
+			<div class="specs">
+				<div class="div1">
+					<p>CPU: Ryzen 7 5800x</p>
+					<p>GPU: Radeon RX 6700 XT</p>
+					<p>RAM: 32GB 3200 MHz</p>
+					<p>Motherboard: ASRock B550 Steel Legend</p>
+				</div>
+				<div class="div2">
+					<p>OS: <a href="https://archlinux.org">Arch Linux</a></p>
+					<p>WM: <a href="https://i3wm.org">i3</a></p>
+					<p>Terminal: <a href="https://github.com/kovidgoyal/kitty">kitty</a></p>
+					<p>Additional Apps:
+						<a href="https://github.com/davatorium/rofi">rofi</a>,
+						<a href="https://github.com/polybar/polybar">polybar</a>,
+						<a href="https://github.com/dylanaraps/neofetch">neofetch</a> (RIP)
+					</p>
+				</div>
+			</div>
 
 			<h3 id="dotfiles">Link to Dotfiles:</h3>
             <a href="https://github.com/sanicsquirtle420/dotfiles"><img src="assets/dotfiles64x64.png" alt="~/."></a>
