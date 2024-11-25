@@ -22,7 +22,7 @@ h2 {
 	color: #000000 ;
 	}
 	
-h3 , p , table{
+h1 , h3 , p , table{
 	font-family: "Open Sans" ;
 	color: #FFFFFF ;
 	}
@@ -83,8 +83,15 @@ img.screenshot {
 	width: 45% ;
 }
 
-img.wrap {
+img.wrap-left {
 	float: left ;
+	padding-left: 10px ;
+	padding-right: 15px ;
+	height: 35% ;
+	width: 35% ;
+}
+img.wrap-right {
+	float: right ;
 	padding-left: 10px ;
 	padding-right: 15px ;
 	height: 35% ;
