@@ -8,7 +8,7 @@ header h2 {
 }
 
 footer {
-	background-color: #000000 ;
+	background-color: #1c1e21 ;
 	padding: 2px ;
 }
 
@@ -79,23 +79,21 @@ img.screenshot {
 	margin-left: auto ;
 	margin-right: auto ;
 	padding: 10px ;
-	height: 45% ;
-	width: 45% ;
+	height: 35% ;
+	width: 35% ;
 }
 
 img.wrap-left {
 	float: left ;
-	padding-left: 10px ;
-	padding-right: 15px ;
-	height: 35% ;
-	width: 35% ;
+	padding: 10px ;
+	height: 25% ;
+	width: 25% ;
 }
 img.wrap-right {
 	float: right ;
-	padding-left: 10px ;
-	padding-right: 15px ;
-	height: 35% ;
-	width: 35% ;
+	padding: 10px ;
+	height: 25% ;
+	width: 25% ;
 }
 
 table img {
@@ -131,8 +129,7 @@ div {
 }
 
 .theme-aqua a:hover {
-	background-color: #add8e6 ;
-	color: #000000 ;
+	background-color: #418488 ;
 }
 
 .theme-juno a:hover {
@@ -140,7 +137,7 @@ div {
 }
 
 .theme-yotsuba a:hover {
-	background-color: #3a4f41 ;
+	background-color: #418848 ;
 }
 
 .navigationBar p {
@@ -148,7 +145,7 @@ div {
 }
 
 div.blueBackground {
-	background-color: #314952;
+	background-color: #213642;
 }
 
 .center {
