@@ -199,6 +199,26 @@ div.blueBackground {
 	text-align: center ;
 }
 
+button {
+	font-family: "Open Sans" ;
+	border-radius: 15%;
+	background-color: #58508f;
+	border-color: #58508f;
+	color: #ffffff ;
+}
+
+button:hover {
+	border-color: #5b9da1;
+	background-color: #5b9da1;
+	color: #ffffff ;
+}
+
+button:active {
+	background-color: #93d6ec;
+	border-color: #93d6ec ;
+	color: #45404f ;
+}
+
 /* Font CSS */
 .open-sans-<openSans> {
 				font-family: "Open Sans", sans-serif;
