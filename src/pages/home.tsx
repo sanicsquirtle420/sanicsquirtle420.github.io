@@ -19,7 +19,7 @@ function Home() {
         <div>
             <h3>About Me:</h3>
             <img className="img-diego" 
-                src="https://sanicsquirtle420.github.io/assets/diego1.jpg"
+                src="/assets/diego1.jpg"
                 class="wrap-left"
                 style={{
                     height: "15%" ,
@@ -52,15 +52,15 @@ function Home() {
         <h3>Socials</h3>
         <div className="social">
             <a href="https://github.com/SanicSquirtle420">
-                <img src="https://github.com/sanicsquirtle420/sanicsquirtle420.github.io/blob/main/assets/github64x64.png?raw=true"
+                <img src="/assets/github64x64.png"
                     alt="GitHub logo"/>
             </a>
             <a href="https://x.com/SanicSquirtle42">
-                <img src="https://github.com/sanicsquirtle420/sanicsquirtle420.github.io/blob/main/assets/x-twitter64x64.png?raw=true" 
+                <img src="/assets/x-twitter64x64.png" 
                     alt ="X / Twitter Logo"/>
             </a>
             <a href="https://youtube.com/SanicSquirtle420">
-                <img src="https://github.com/sanicsquirtle420/sanicsquirtle420.github.io/blob/main/assets/youtube64x64.png?raw=true"
+                <img src="/assets/youtube64x64.png"
                     alt="YouTube Logo" />
             </a>
         </div>
