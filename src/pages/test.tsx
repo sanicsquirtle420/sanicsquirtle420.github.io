@@ -1,55 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!-- metadata for mobile phones -->
-		<meta name="viewport" content="initial-scale=1 , width=device-width">
-		<!-- metadata for website -->
-		<meta charset="UTF-8">
-		<meta property="og:title" content="SanicSquirtle428">
-		<meta property="author" content="Diego R. / SanicSquirtle428">
-		<meta property="description" content="SanicSquirtle428's test webpage">
+import Navbar from "../utils/navbar" ;
+import footerMsg from "../utils/year";
 
-		<title>Test Dot HTML</title>
-		<link rel="icon" type="image/x-icon" href="assets/raccoon32x32.png">
-		<link rel="stylesheet" href="style.css">
+export default function Main() {
+  return (
+    <>
+    <title>Test dot tsx</title>
+    <header>
+      <h2>Test</h2>
+    </header>
+    <Navbar />
+      <h3>A collection of my favorite characters</h3>
+      <p>Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-			  rel="stylesheet">
-
-		<script type="text/javascript" src="javascript/year.js"></script>
-		<script type="text/javascript" src="javascript/stopwatch.js"></script>
-	</head>
-
-	<header>
-		<h2>/test</h2>
-	</header>
-
-	<body>
-		<div class="navigationBar">
-			<div class="item home"><a href="/">Home [~/]</a></div>
-			<div class="item shelby"><p>Shelby Nicknames:</p></div>
-			<div class="item item-1"><a href="https://instagram.com/shelby.the.doggo">shelbigen</a></div>
-			<div class="item item-2"><a href="https://instagram.com/shelby.the.doggo">shelboogen</a></div>
-			<div class="item item-3"><a href="https://instagram.com/shelby.the.doggo">shelbert</a></div>
-		</div>
-
-		<div class="center">
-			<h3>Stopwatch</h3>
-			<h1 id="time">00:00</h1>
-			<button onclick="startClock()">Start</button>
-			<button onclick="stopClock()">Stop</button>
-			<button onclick="resetClock()">Reset</button>
-		</div>
-
-		<h3>A Collection of my Favorite Characters</h3>
-		<p>
-			Yes, all of the buttons lead you to Shelby's instagram account and art credits goes to:
-			<a href="https://x.com/StrawHatPyro">StrawHatPyro</a>
-		</p>
-		<img src="https://pbs.twimg.com/media/GeeIjA0XQAAEx-7?format=jpg&name=4096x4096"
-			 class="wrap-left" alt="Kiriko and Juno, art credits: StrawHatPyro">
+      <img src="https://pbs.twimg.com/media/GeeIjA0XQAAEx-7?format=jpg&name=4096x4096"
+			 class="wrap-left" alt="Kiriko and Juno, art credits: StrawHatPyro" />
 		<p>Let the kitsune guide you!</p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -59,10 +23,11 @@
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 			voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 			mollit anim id est laborum.
-		</p> <br style="clear:both">
+		</p>
+    <br style={{clear: "both"}} />
 
 		<img src="https://pbs.twimg.com/media/GXIJ0FhbEAI16Lw?format=jpg&name=4096x4096"
-			class="wrap-right" alt="Kiriko and Juno, art credits: StrawHatPyro">
+			class="wrap-right" alt="Kiriko and Juno, art credits: StrawHatPyro" />
 		<p>Welcome to orbit!</p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -72,10 +37,11 @@
 			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 			voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 			mollit anim id est laborum.
-		</p> <br style="clear:both">
+		</p>
+    <br style={{clear: "both"}}/>
 
 		<img src="https://pbs.twimg.com/media/GgoDquCXAAEOMn7?format=jpg&name=large"
-			class="wrap-left" alt="Luna Snow, art credits: StrawHatPyro">
+			class="wrap-left" alt="Luna Snow, art credits: StrawHatPyro" />
 		<p>I am ready to put on a show!</p>
 		<p>
 			Not gonna like Overwatch ult lines are better than in Marvel Rivals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -85,17 +51,13 @@
 			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
 			qui officia deserunt mollit anim id est laborum.
-		</p> <br style="clear:both">
-
-		<h3>Note:</h3>
-		<p>
-			This is just the test website, so feel free to enjoy the random mess this becomes!
 		</p>
-
-			<footer>
-				<p class="center"><script type="text/javascript">
-					document.write(copystrike + " (" + currentYear.toString() + ")") ;
-				</script></p>
-			</footer>
-	</body>
-</html>
+    <br style={{clear: "both"}}/>
+    <h3>Note</h3>
+    <p>This is just the test website, so feel free to enjoy the random mess this becomes!</p>
+    <footer>
+            {footerMsg()}
+        </footer>
+    </>
+  ) ;
+}

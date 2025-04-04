@@ -1,3 +1,8 @@
+#root {
+    margin: 0 auto;
+    text-align: left;
+}
+
 header {
 	background-color: #add8e6 ;
 	padding: 25px ;
@@ -101,13 +106,6 @@ table img {
 	width: 50px ;
 }
 
-#img-diego {
-	padding: 10px ;
-	border-radius: 50% ;
-	height: 15%;
-	width: 15%;
-}
-
 @media only screen and (max-height: 811px) {
 	img.center {
 		display: block ;
@@ -151,28 +149,7 @@ table img {
 /* div CSS */
 div {
 	padding: 2px ;
-}
-
-.navigationBar {
-	font-family: "Open Sans" ;
-	display: flex ;
-	justify-content: flex-start ;
-	color: #ffffff ;
-	background-color: #45404f ;
-	overflow: auto ;
-	white-space: nowrap ;
-}
-
-.navigationBar a {
-	display: flex ;
-	justify-content: flex-start ;
-	color: #ffffff ;
-	text-align: center ;
-	padding: 15px ;
-	text-decoration: none ;
-}
-.navigationBar a:hover {
-	background-color: #b69ddd ;
+    margin-bottom: 5px ;
 }
 
 .theme-aqua a:hover {
@@ -187,10 +164,6 @@ div {
 	background-color: #418848 ;
 }
 
-.navigationBar p {
-	text-align: center ;
-}
-
 div.blueBackground {
 	background-color: #213642;
 }
@@ -198,6 +171,39 @@ div.blueBackground {
 .center {
 	text-align: center ;
 }
+
+div.program img {
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+	gap: 5px ;
+	height: 40px ;
+	width: 40px ;
+}
+
+.social {
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+	gap: 10px ;
+}
+
+footer {
+	display: flex ;
+	align-items: center ;
+	justify-content: center ;
+}
+
+.specs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
 
 button {
 	font-family: "Open Sans" ;
