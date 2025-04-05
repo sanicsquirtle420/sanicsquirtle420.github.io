@@ -13,19 +13,19 @@ function Dotfiles() {
         <div className="archImages">
         	<h3 id="archConfig">Arch Linux Config</h3>	
 			<img src="https://64.media.tumblr.com/d0391ef985b175ebd9cb29ff37238503/a7509aa304f24313-9f/s2048x3072/e18b4f4b294acc6122150abe7579a0113e4790d8.pnj"
-				alt="A screenshot of my Arch i3 configuration." class="screenshot" />
+				alt="A screenshot of my Arch i3 configuration." className="screenshot" />
 			<img src="https://64.media.tumblr.com/b5fa0850e0dc970f958b34ea036f5e0c/837b204c62db8d73-a4/s1280x1920/239957e87f0ee9ba0d496fb89498869c982eae2d.pnj"
-				alt="A screenshot of my rofi configuration." class="screenshot" />
+				alt="A screenshot of my rofi configuration." className="screenshot" />
 		</div>
 
-        <div class="specs">
-				<div class="div1">
+        <div className="specs">
+				<div className="div1">
 					<p>CPU: Ryzen 7 5800x</p>
 					<p>GPU: Radeon RX 6700 XT</p>
 					<p>RAM: 32GB 3200 MHz</p>
 					<p>Motherboard: ASRock B550 Steel Legend</p>
 				</div>
-				<div class="div2">
+				<div className="div2">
 					<p>OS: <a href="https://archlinux.org">Arch Linux</a></p>
 					<p>WM: <a href="https://i3wm.org">i3</a></p>
 					<p>Terminal: <a href="https://github.com/kovidgoyal/kitty">kitty</a></p>
@@ -46,17 +46,17 @@ function Dotfiles() {
 
 			<a href="https://github.com/sanicsquirtle420/dotfiles/tree/main/themes/aqua"><h4 id="aqua">Aqua</h4></a>
 			<img src="https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/refs/heads/main/pictures/2024-12-27aqua.png"
-				alt="Preview image for the Aqua theme" class="screenshot" />
+				alt="Preview image for the Aqua theme" className="screenshot" />
 			<p>Date: Dec 27, 2024</p>
 
 			<a href="https://github.com/sanicsquirtle420/dotfiles/tree/main/themes/juno"><h4 id="juno">Juno</h4></a>
 			<img src="https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/refs/heads/main/pictures/2024-12-27juno.png"
-				alt="Preview image for the Juno theme" class="screenshot" />
+				alt="Preview image for the Juno theme" className="screenshot" />
 			<p>Date: Dec 27, 2024</p>
 
 			<a href="https://github.com/sanicsquirtle420/dotfiles/tree/main/themes/yotsuba"><h4 id="yotsuba">Yotsuba</h4></a>
 			<img src="https://raw.githubusercontent.com/sanicsquirtle420/dotfiles/refs/heads/main/pictures/2024-12-27yotsuba.png"
-				alt="Preview image for the Yotsuba theme" class="screenshot" />
+				alt="Preview image for the Yotsuba theme" className="screenshot" />
 			<p>Date: Dec 27, 2024</p>
 		</div>
         <footer>

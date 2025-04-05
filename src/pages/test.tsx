@@ -13,7 +13,7 @@ export default function Main() {
       <p>Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
 
       <img src="https://pbs.twimg.com/media/GeeIjA0XQAAEx-7?format=jpg&name=4096x4096"
-			 class="wrap-left" alt="Kiriko and Juno, art credits: StrawHatPyro" />
+			 className="wrap-left" alt="Kiriko and Juno, art credits: StrawHatPyro" />
 		<p>Let the kitsune guide you!</p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -27,7 +27,7 @@ export default function Main() {
     <br style={{clear: "both"}} />
 
 		<img src="https://pbs.twimg.com/media/GXIJ0FhbEAI16Lw?format=jpg&name=4096x4096"
-			class="wrap-right" alt="Kiriko and Juno, art credits: StrawHatPyro" />
+			className="wrap-right" alt="Kiriko and Juno, art credits: StrawHatPyro" />
 		<p>Welcome to orbit!</p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -41,7 +41,7 @@ export default function Main() {
     <br style={{clear: "both"}}/>
 
 		<img src="https://pbs.twimg.com/media/GgoDquCXAAEOMn7?format=jpg&name=large"
-			class="wrap-left" alt="Luna Snow, art credits: StrawHatPyro" />
+			className="wrap-left" alt="Luna Snow, art credits: StrawHatPyro" />
 		<p>I am ready to put on a show!</p>
 		<p>
 			Not gonna like Overwatch ult lines are better than in Marvel Rivals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
