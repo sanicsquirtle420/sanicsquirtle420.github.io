@@ -22,13 +22,41 @@ function Home() {
             <img className="img-diego wrap-left" src="/assets/diego1.jpg" />
             <p>
                 Hello, my name is Diego, I am a current Computer Science student at the <a href="https://cs.olemiss.edu">University of Mississippi</a> with 
-                an emphasis in Computer Security and minoring in Electrical Engineering. I am current surving in the US Army as an IT Specalist, which is where
-                I got my Security+ and got introduced to networking. My current interests are cybersecurity, networking, gaming and full stack development. After
-                graduation I plan to continue surving in the military and going to grad school in Texas for Computer Science or Computer Engineering. Apart from
+                an emphasis in Computer Security and minoring in Electrical Engineering. I am currently serving in the US Army as an IT Specalist, which is where
+                I got my Security+ and introduced to networking. My current interests are cybersecurity, networking, gaming and full stack development. After
+                graduation I plan to continue serving in the military and going to grad school in Texas for Computer Science or Computer Engineering. Apart from
                 coding, I love to build and research computer parts, tinker with my Linux setup, and play Overwatch (if that wasn't obvious).
             </p>
         </div>
         <br style={{clear: "both"}}/>
+        <div>
+            <h3>Projects</h3>
+            <h4>Deep Murder / GPT Murder</h4>
+            <p>
+                Deep Murder was my group's hackathon project during the University of Mississippi's Hack Beta 2025. The main project was to create an
+                interactive game that used the CS department's local Deepseek LLM. Our group used Deepseek to generate NPC dialogue to give the player
+                clues or to lead them in a different direction. GPT Murder is a fork of Deep Murder that will use a different LLM to do the same thing Deepseek (attempted) to do
+                during our Hackathon. <br /> <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | 
+                <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
+            </p>
+            <img src="/assets/deepmurder_1.png" alt="Screenshot of Deep Murder" className="screenshot" />
+            <h4>Racchat</h4>
+            <p>
+                Racchat is a project for me to learn about ports by making a message server and client. Currently the server can listen on a port waiting
+                for a response from a client. The client is able to successfully send one message before the program closes. Racchat is still under development.
+                <br/> <a href="https://github.com/sanicsquirtle420/racchat">Racchat: Source Code</a>
+            </p>
+            <img src="/assets/racchat_1.png" alt="Screenshot of racchat server and client running" className="screenshot"/>
+            <h4>Raccoon Bot</h4>
+            <p>
+                Raccoon Bot is a simple Discord bot that I wrote to use with my friends. As of right now it can reply with a 
+                random Overwatch quote, random cringe gif (both from a json file), and a simple hello
+                command. <br/> <a href="https://github.com/sanicsquirtle420/personal-experiments/tree/main/python/RaccoonBot">Raccoon Bot: Source Code</a>.
+            </p>
+            <img src="/assets/raccoonbot_4.png" alt="Screenshot of Raccoon Bot responses"
+                className="screenshot"/>
+        </div>
+        
         <h3>Programming</h3>
             <p>
                 These are some of the programing languages that I know or in the process of learning. All of my code is uploaded
@@ -38,27 +66,7 @@ function Home() {
             <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
             <img src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
             <img src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C logo" />
-        </div>
-        <div>
-            <h3>Projects</h3>
-            <h4>Deep Murder / GPT Murder</h4>
-            <p>
-                Deep Murder was my group's hackathon project during the University of Mississippi's Hack Beta 2025. The main project was to create an
-                interactive game that used the CS department's local Deepseek LLM. Our group used Deepseek to generate NPC dialogue to give the player
-                clues or to lead them in a different direction. GPT Murder is a fork of Deep Murder that will use a different LLM to do the same thing Deepseek (attempted) to do
-                during our Hackathon. <br />
-                <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
-            </p>
-            <img src="/assets/deepmurder_1.png" alt="Screenshot of Deep Murder" className="screenshot" />
-            <h4>Raccoon Bot</h4>
-            <p>
-                Raccoon Bot is a simple Discord bot that I wrote to use with my friends. As of right now it can reply with a 
-                random Overwatch quote, random cringe gif (both from a json file), and a simple hello
-                command. <a href="https://github.com/sanicsquirtle420/personal-experiments/tree/main/python/RaccoonBot">Raccoon Bot: Source Code</a>.
-            </p>
-            <img src="/assets/raccoonbot_4.png" alt="Screenshot of Raccoon Bot responses"
-                className="screenshot"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
         </div>
         <h3>Socials</h3>
         <div className="social">

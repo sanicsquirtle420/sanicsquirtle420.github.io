@@ -36,8 +36,10 @@ function Dotfiles() {
 					</p>
 				</div>
             </div>
-            <h3 id="dotfiles">Link to Dotfiles:</h3>
-            <a href="https://github.com/sanicsquirtle420/dotfiles"><img src="/assets/dotfiles64x64.png" alt="~/." /></a>
+            <h3 id="dotfiles" style={{display: "flex" , alignItems: "center"}}>
+				Link to my dotfiles: 
+            	<a href="https://github.com/sanicsquirtle420/dotfiles"><img src="/assets/dotfiles64x64.png" alt="~/." /></a>
+			</h3>
 			
             <div>
 			<h3 id="themePreviews">Theme Previews</h3>
