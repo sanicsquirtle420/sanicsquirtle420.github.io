@@ -9,12 +9,12 @@ export default function Main() {
       <h2>Test</h2>
     </header>
     <Navbar />
-      <h3>A collection of my favorite characters</h3>
-      <p>Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
+      <p></p>
 
-      <img src="https://pbs.twimg.com/media/GeeIjA0XQAAEx-7?format=jpg&name=4096x4096"
-			 className="wrap-left" alt="Kiriko and Juno, art credits: StrawHatPyro" />
-		<p>Let the kitsune guide you!</p>
+      <img src="https://pbs.twimg.com/media/G4DZwqIWIAA63dQ?format=jpg&name=large"
+			 className="wrap-left" alt="Kiriko, art credits: StrawHatPyro" />
+		<h3>Kiriko:</h3>
+		<p>Let the kitsune guide you! Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 			minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -26,9 +26,10 @@ export default function Main() {
 		</p>
     <br style={{clear: "both"}} />
 
-		<img src="https://pbs.twimg.com/media/GXIJ0FhbEAI16Lw?format=jpg&name=4096x4096"
-			className="wrap-right" alt="Kiriko and Juno, art credits: StrawHatPyro" />
-		<p>Welcome to orbit!</p>
+		<img src="https://pbs.twimg.com/media/G0fyuuyasAAqp1I?format=jpg&name=large"
+			className="wrap-right" alt="Juno, art credits: StrawHatPyro" />
+		<h3>Juno:</h3>
+		<p>Welcome to orbit! Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
 			minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -40,9 +41,26 @@ export default function Main() {
 		</p>
     <br style={{clear: "both"}}/>
 
+		<pre><code>
+{`/* Test.java */
+public static void main(String[] args) {
+	System.out.println(juno()) ; 
+	System.out.println(kiriko("raccoon")) ;
+}
+
+public String juno() {
+	return "Welcome to orbit!" ;
+}
+	
+public String kiriko(String name) {
+	return String.format("Let the kitsune guide %s!", name) ;
+}`	
+	}</code></pre>
+
 		<img src="https://pbs.twimg.com/media/GgoDquCXAAEOMn7?format=jpg&name=large"
 			className="wrap-left" alt="Luna Snow, art credits: StrawHatPyro" />
-		<p>I am ready to put on a show!</p>
+		<h3>Luna Snow:</h3>
+		<p>I am ready to put on a show! Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
 		<p>
 			Who knew it would take me so long to find a spelling mistake, but as far as ultimate voicelines go. Overwatch &gt; Marvel Rivals. Lorem ipsum dolor sit amet, 
 			consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 

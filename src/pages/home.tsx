@@ -39,7 +39,7 @@ function Home() {
                 during our Hackathon. <br /> <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | 
                 <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
             </p>
-            <img src="/assets/deepmurder_1.png" alt="Screenshot of Deep Murder" className="screenshot" />
+            <img src="/assets/gptmurder_1.png" alt="Screenshot of GPT Murder" className="screenshot" />
             <h4>Racchat</h4>
             <p>
                 Racchat is a project for me to learn about ports by making a message server and client. Currently the server can listen on a port waiting

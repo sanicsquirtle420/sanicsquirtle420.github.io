@@ -13,8 +13,11 @@ header h2 {
 }
 
 footer {
-	background-color: #1c1e21 ;
 	padding: 2px ;
+	display: flex ;
+	align-items: center ;
+	justify-content: center ;
+	background-color: #1c1e21 ;
 }
 
 body {
@@ -194,12 +197,6 @@ div {
 	gap: 10px ;
 }
 
-footer {
-	display: flex ;
-	align-items: center ;
-	justify-content: center ;
-}
-
 .specs {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -211,24 +208,17 @@ footer {
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 
-button {
-	font-family: "Open Sans" ;
-	border-radius: 15%;
-	background-color: #58508f;
-	border-color: #58508f;
-	color: #ffffff ;
+/* Code Block CSS */
+pre {
+	background-color: #181825 ;
+	border: 1px solid #89b4fa ;
+	padding: 10px ;
+	overflow-x: auto ;
 }
 
-button:hover {
-	border-color: #5b9da1;
-	background-color: #5b9da1;
-	color: #ffffff ;
-}
-
-button:active {
-	background-color: #93d6ec;
-	border-color: #93d6ec ;
-	color: #45404f ;
+code {
+	font-family: monospace ;
+	color: #cdd6f4
 }
 
 /* Font CSS */
