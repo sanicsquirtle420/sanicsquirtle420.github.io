@@ -40,6 +40,14 @@ function Home() {
                 <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
             </p>
             <img src="/assets/gptmurder_1.png" alt="Screenshot of GPT Murder" className="screenshot" />
+            <h4>RacCryption</h4>
+            <p>
+                RacCryption is a text encryption and decrytion tool that will encrypt/decrypt text files for you. This is based off of a project I did for my Foundations of
+                Computer Security class (Csci 325) where I had to write the code to encrypt and decrypt with different ciphers. Currently the only encryption algorithm used is a
+                keyword cipher, but I plan to add more soon.
+                <br /> <a href="https://github.com/sanicsquirtle420/raccryption">RacCryption: Source Code</a>
+            </p>
+            <img src="/assets/raccryption_1.png" alt="Encrypting and Decrypting a text file" className="screenshot"/>
             <h4>Racchat</h4>
             <p>
                 Racchat is a project for me to learn about ports by making a message server and client. Currently the server can listen on a port waiting
@@ -64,23 +72,35 @@ function Home() {
             </p>
         <div className="prog">
             <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
             <img src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
             <img src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
         </div>
+        <div className="shelby">
+        <h3>Shelby</h3>
+        <img src="/assets/shelby2.png" className = "wrap-right" alt="Shelby yawning"/>
+            <p>
+                Sense you made it to the bottom here is a picture of Shelby! Isn't he just the best. You should also follow him  
+                on <a href="https://instagram.com/shelby.the.doggo">Instagram</a> because we love Shelby &lt;3.
+            </p>
+        </div> <br style={{clear: "both"}}/>
         <h3>Socials</h3>
         <div className="social">
             <a href="https://github.com/SanicSquirtle420">
                 <img src="/assets/github64x64.png"
                     alt="GitHub logo"/>
             </a>
+            <a href="https://youtube.com/SanicSquirtle420">
+                <img src="/assets/youtube64x64.png"
+                    alt="YouTube Logo" />
+            </a>
             <a href="https://x.com/SanicSquirtle42">
                 <img src="/assets/x-twitter64x64.png" 
                     alt ="X / Twitter Logo"/>
             </a>
-            <a href="https://youtube.com/SanicSquirtle420">
-                <img src="/assets/youtube64x64.png"
-                    alt="YouTube Logo" />
+            <a href="https://instagram.com/sanicsquirtle428">
+                <img src="/assets/instagram64x64.png" 
+                    alt ="Instagram Logo"/>
             </a>
         </div>
         <footer>
