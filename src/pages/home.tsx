@@ -77,8 +77,9 @@ function Home() {
             <img src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
         </div>
         <div className="shelby">
-        <h3>Shelby</h3>
         <img src="/assets/shelby2.png" className = "wrap-right" alt="Shelby yawning"/>
+        <h3>Shelby</h3>
+        
             <p>
                 Sense you made it to the bottom here is a picture of Shelby! Isn't he just the best. You should also follow him  
                 on <a href="https://instagram.com/shelby.the.doggo">Instagram</a> because we love Shelby &lt;3.
