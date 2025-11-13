@@ -1,4 +1,4 @@
-import Navbar from "../utils/navbar" ;
+import Navbar from "../utils/dotfiles_nav" ;
 import footerMsg from "../utils/year";
 
 function Dotfiles() {

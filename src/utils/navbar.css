@@ -16,6 +16,19 @@ li {
     padding-right: 10px ;
 }
 
+li#aq a:hover {
+    background-color: #418488 ;
+    color: #ffffff ;
+}
+li#ju a:hover {
+    background-color: #4a4188 ;
+    color: #ffffff ;
+}
+li#yo a:hover {
+    background-color: #418848 ;
+    color: #ffffff ;
+}
+
 .nav-links a {
     display: flex ;
     justify-content: flex-start ;
