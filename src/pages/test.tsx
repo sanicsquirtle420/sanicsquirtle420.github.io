@@ -26,7 +26,7 @@ export default function Main() {
 		</p>
     <br style={{clear: "both"}} />
 
-		<img src="https://pbs.twimg.com/media/G0fyuuyasAAqp1I?format=jpg&name=large"
+		<img src="https://pbs.twimg.com/media/GuDgrWrWkAAv_ll?format=jpg&name=large"
 			className="wrap-right" alt="Juno, art credits: StrawHatPyro" />
 		<h3>Juno:</h3>
 		<p>Welcome to orbit! Art credits: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p>
