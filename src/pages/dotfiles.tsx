@@ -6,7 +6,7 @@ function Dotfiles() {
         <>
         <title>Dotfiles</title>
         <header>
-            <h2>Dotfiles</h2>
+            <h1 className="title_header">Dotfiles</h1>
         </header>
         <Navbar/>
 

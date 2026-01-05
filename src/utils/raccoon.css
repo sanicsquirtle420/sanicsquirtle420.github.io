@@ -7,10 +7,6 @@ header {
 	background-color: #add8e6 ;
 	padding: 25px ;
 }
-header h2 {
-	text-align: center ;
-	font-size: 35px ;
-}
 
 footer {
 	padding: 2px ;
@@ -26,19 +22,19 @@ body {
 }
 
 /* Text CSS*/
-h2 {
+h1, h3, h5 {
 	font-family: "Open Sans" ;
-	color: #000000 ;
-	}
+	color: #d1e4ff ; 
+}
+
+h2, h4, h6 {
+	font-family: "Open Sans" ;
+	color: #edd1ff ;
+}
 	
-h1 , h3 , p , table{
+p , table{
 	font-family: "Open Sans" ;
 	color: #FFFFFF ;
-	}
-
-h4 {
-	font-family: "Open Sans" ;
-	color: #e2fffb ; 
 }
 
 td {
@@ -68,7 +64,7 @@ img {
 	padding-right: 15px ;
 }
 
-header img {
+h1 img {
 	padding-right: 5px ;
 	height: 45px ;
 	width: 45px ;
@@ -144,11 +140,6 @@ img.img-diego {
 
 /* Phone CSS */
 @media only screen and (max-width: 428px) {
-	header h2 {
-		text-align: center ;
-		font-size: 30px ;
-	}
-
 	footer {
 		font-size: 12px ;
 	}
@@ -193,6 +184,13 @@ img.img-diego {
 div {
 	padding: 2px ;
     margin-bottom: 5px ;
+}
+
+.title_header {
+	display: flex ;
+	color: #11111b ;
+	align-items: center ;
+	justify-content: center ;
 }
 
 .center {

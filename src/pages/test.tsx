@@ -6,7 +6,11 @@ export default function Main() {
     <>
     <title>Test dot tsx</title>
     <header>
-      <h2>Test</h2>
+      <h1 className="title_header">
+		<img src="https://i.pinimg.com/736x/b2/33/65/b233650b836ac1718ce7f686c043802d.jpg"
+            alt="Yotsuba Nakano from the Quintessential Quintuplets"/>        
+		Test
+	</h1>
     </header>
     <Navbar />
       <p></p>
@@ -69,8 +73,7 @@ public String kiriko(String name) {
 			do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
 			sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-    <br style={{clear: "both"}}/>
+		</p> <br style={{clear: "both"}}/>
     <h3>Note</h3>
     <p>This is just the test website, so feel free to enjoy the random mess this becomes!</p>
     <footer>

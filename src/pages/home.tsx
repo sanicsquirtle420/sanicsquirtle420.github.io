@@ -6,41 +6,37 @@ function Home() {
         <>
         <title>SanicSquirtle428</title>
         <header>
-            <h2 style={{display: "flex" , alignItems: "center", justifyContent: "center"}}>
-                <img src="https://i.pinimg.com/736x/1f/fb/08/1ffb088636afec128b21fc4b0b354fa3.jpg"
-                style= {{
-                    marginRight: "5px" ,
-                    width: "45px" ,
-                    height: "45px"
-                }} />
+            <h1 className="title_header">
+                <img src="https://i.pinimg.com/736x/f7/75/75/f775757de363727ccc12ecdcdf851c40.jpg"
+			        alt="Rio Futaba from Rascal Does Not Dream of"/>
                 SanicSquirtle428
-            </h2>
+            </h1>
         </header>
         <Navbar/>
         <div>
-            <h3>About Me:</h3>
+            <h2>Diego / SanicSquirtle428</h2>
             <img className="img-diego wrap-left" src="/assets/diego1.jpg" />
             <p>
-                Hello, my name is Diego, I am a current Computer Science student at the <a href="https://cs.olemiss.edu">University of Mississippi</a> with 
-                an emphasis in Computer Security and minoring in Electrical Engineering. I am currently serving in the US Army as an IT Specalist, which is where
-                I got my Security+ and introduced to networking. My current interests are cybersecurity, networking, gaming and full stack development. After
-                graduation I plan to continue serving in the military and going to grad school in Texas for Computer Science or Computer Engineering. Apart from
-                coding, I love to build and research computer parts, tinker with my Linux setup, and play Overwatch (if that wasn't obvious).
+                Location: Central Mississippi / <a href="https://olemiss.edu">University of Mississippi</a><br/>
+                Major: Computer Science | Minor: Electrical Engineering | Emphasis: Computer Security <br/>
+                Currently serving in the US Army Reserves as an IT Specalist, and I am Security+ certified <br/>
+                Interests: Cybersecurity, networking, and full stack development<br/><br/>
+                I plan to continue serving in the military and going to grad school in Texas after graduating from
+                Ole Miss in May 2027.
             </p>
         </div>
         <br style={{clear: "both"}}/>
         <div>
-            <h3>Projects</h3>
-            <h4>Deep Murder / GPT Murder</h4>
+            <h2>Projects</h2>
+            <h3>Deep Murder / GPT Murder</h3>
             <p>
                 Deep Murder was my group's hackathon project during the University of Mississippi's Hack Beta 2025. The main project was to create an
                 interactive game that used the CS department's local Deepseek LLM. Our group used Deepseek to generate NPC dialogue to give the player
                 clues or to lead them in a different direction. GPT Murder is a fork of Deep Murder that will use a different LLM to do the same thing Deepseek (attempted) to do
-                during our Hackathon. <br /> <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | 
-                <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
+                during our Hackathon. <br /> <a href="https://github.com/Hack-Beta/deep-murder">Deep Murder: Source Code</a> | <a href="https://github.com/sanicsquirtle420/gpt-murder">GPT Murder: Source Code</a>
             </p>
             <img src="/assets/gptmurder_1.png" alt="Screenshot of GPT Murder" className="screenshot" />
-            <h4>RacCryption</h4>
+            <h3>RacCryption</h3>
             <p>
                 RacCryption is a text encryption and decrytion tool that will encrypt/decrypt text files for you. This is based off of a project I did for my Foundations of
                 Computer Security class (Csci 325) where I had to write the code to encrypt and decrypt with different ciphers. Currently the only encryption algorithm used is a
@@ -48,14 +44,14 @@ function Home() {
                 <br /> <a href="https://github.com/sanicsquirtle420/raccryption">RacCryption: Source Code</a>
             </p>
             <img src="/assets/raccryption_1.png" alt="Encrypting and Decrypting a text file" className="screenshot"/>
-            <h4>Racchat</h4>
+            <h3>Racchat</h3>
             <p>
                 Racchat is a project for me to learn about ports by making a message server and client. Currently the server can listen on a port waiting
                 for a response from a client. The client is able to successfully send one message before the program closes. Racchat is still under development.
                 <br/> <a href="https://github.com/sanicsquirtle420/racchat">Racchat: Source Code</a>
             </p>
             <img src="/assets/racchat_1.png" alt="Screenshot of racchat server and client running" className="screenshot"/>
-            <h4>Raccoon Bot</h4>
+            <h3>Raccoon Bot</h3>
             <p>
                 Raccoon Bot is a simple Discord bot that I wrote to use with my friends. As of right now it can reply with a 
                 random Overwatch quote, random cringe gif (both from a json file), and a simple hello
@@ -65,7 +61,7 @@ function Home() {
                 className="screenshot"/>
         </div>
         
-        <h3>Programming</h3>
+        <h2>Programming</h2>
             <p>
                 These are some of the programing languages that I know or in the process of learning. All of my code is uploaded
 		        to my GitHub account if you would like to see it.
@@ -78,24 +74,24 @@ function Home() {
         </div>
         <div className="shelby">
         <img src="/assets/shelby2.png" className = "wrap-right" alt="Shelby yawning"/>
-        <h3>Shelby</h3>
+        <h2>Shelby</h2>
         
             <p>
                 Sense you made it to the bottom here is a picture of Shelby! Isn't he just the best. You should also follow him  
                 on <a href="https://instagram.com/shelby.the.doggo">Instagram</a> because we love Shelby &lt;3.
             </p>
         </div> <br style={{clear: "both"}}/>
-        <h3>Socials</h3>
+        <h2>Socials</h2>
         <div className="social">
-            <a href="https://github.com/SanicSquirtle420">
+            <a href="https://github.com/sanicsquirtle420">
                 <img src="/assets/github64x64.png"
                     alt="GitHub logo"/>
             </a>
-            <a href="https://youtube.com/SanicSquirtle420">
+            <a href="https://youtube.com/sanicsquirtle420">
                 <img src="/assets/youtube64x64.png"
                     alt="YouTube Logo" />
             </a>
-            <a href="https://x.com/SanicSquirtle42">
+            <a href="https://x.com/sanicsquirtle42">
                 <img src="/assets/x-twitter64x64.png" 
                     alt ="X / Twitter Logo"/>
             </a>
