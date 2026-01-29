@@ -25,7 +25,8 @@ function Navbar() {
                     <li id="aq"><Link to="/dotfiles#aqua" onClick={() => setIsOpen(!isOpen)}>Aqua</Link></li>
                     <li id="ju"><Link to="/dotfiles#juno" onClick={() => setIsOpen(!isOpen)}>Juno</Link></li>
                     <li id="yo"><Link to="/dotfiles#yotsuba" onClick={() => setIsOpen(!isOpen)}>Yotsuba</Link></li>
-                    <li><Link to="/test" onClick={() => setIsOpen(!isOpen)}>Test</Link></li>
+                    <li><Link to="/homelab" onClick={() => setIsOpen(!isOpen)}>Homelab</Link></li>
+                    <li><Link to="/open-source" onClick={() => setIsOpen(!isOpen)}>Open Source</Link></li>
                     
                 </ul>
             </div>

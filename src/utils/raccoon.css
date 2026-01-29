@@ -24,17 +24,23 @@ body {
 /* Text CSS*/
 h1, h3, h5 {
 	font-family: "Open Sans" ;
-	color: #d1e4ff ; 
+	color: #e4efff ; 
 }
 
 h2, h4, h6 {
 	font-family: "Open Sans" ;
-	color: #edd1ff ;
+	color: #f6e4ff ;
 }
 	
 p , table{
 	font-family: "Open Sans" ;
-	color: #FFFFFF ;
+	color: #ffffff ;
+}
+
+p.italics {
+	font-family: "Open Sans" ;
+	font-style: italic ;
+	color: #a6adc8 ;
 }
 
 td {
@@ -93,9 +99,14 @@ img.wrap-right {
 	width: 30% ;
 }
 
-table img {
+img.prog-logo {
 	height: 50px ;
 	width: 50px ;
+}
+
+img.loading-gif {
+	height: 200px ;
+	width: auto ;
 }
 
 img.img-diego {

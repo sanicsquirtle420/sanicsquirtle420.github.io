@@ -67,10 +67,10 @@ function Home() {
 		        to my GitHub account if you would like to see it.
             </p>
         <div className="prog">
-            <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
-            <img src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
-            <img src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
+            <img className="prog-logo" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
+            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
+            <img className="prog-logo" src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
+            <img className="prog-logo" src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
         </div>
         <div className="shelby">
         <img src="/assets/shelby2.png" className = "wrap-right" alt="Shelby yawning"/>

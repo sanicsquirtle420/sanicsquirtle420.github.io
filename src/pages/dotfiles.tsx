@@ -6,7 +6,11 @@ function Dotfiles() {
         <>
         <title>Dotfiles</title>
         <header>
-            <h1 className="title_header">Dotfiles</h1>
+            <h1 className="title_header">
+				<img src="https://i.pinimg.com/1200x/3f/6b/18/3f6b183bdaf06992fe235ab30467ecd5.jpg"
+            		alt="Yotsuba Nakano from the Quintessential Quintuplets"/>
+				Dotfiles
+			</h1>
         </header>
         <Navbar/>
 
