@@ -15,14 +15,13 @@ function Home() {
         <Navbar/>
         <div>
             <h2>Diego / SanicSquirtle428</h2>
-            <img className="img-diego wrap-left" src="/assets/diego1.jpg" />
+            <img className="img-diego wrap-left" src="/assets/diego2.png" alt="Picture of Diego R."/>
             <p>
-                Location: Central Mississippi / <a href="https://olemiss.edu">University of Mississippi</a><br/>
-                Major: Computer Science | Minor: Electrical Engineering | Emphasis: Computer Security <br/>
-                Currently serving in the US Army Reserves as an IT Specalist, and I am Security+ certified <br/>
-                Interests: Cybersecurity, networking, and full stack development<br/><br/>
-                I plan to continue serving in the military and going to grad school in Texas after graduating from
-                Ole Miss in May 2027.
+                &#128205;: Central Mississippi /  <a href="https://olemiss.edu">University of Mississippi</a><br/>
+                &#127891; Major: Computer Science &#128187;| Minor: Electrical Engineering &#9889;| Emphasis: Computer Security &#128274;<br/>
+                &#128225; IT Specalist in the <a href="https://www.usar.army.mil">US Army Reserves</a><br/>
+                Interests: Cybersecurity, networking, game development, and full stack development <br />
+
             </p>
         </div>
         <br style={{clear: "both"}}/>
@@ -61,15 +60,18 @@ function Home() {
                 className="screenshot"/>
         </div>
         
-        <h2>Programming</h2>
+        <h2>Technology</h2>
             <p>
-                These are some of the programing languages that I know or in the process of learning. All of my code is uploaded
-		        to my GitHub account if you would like to see it.
+                Below are programming languages and software that I am familar with.
             </p>
         <div className="prog">
+            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Linux_mascot_tux.png" alt="Linux logo" />
+            <img className="prog-logo" src="https://cdn.freebiesupply.com/logos/large/2x/git-logo-svg-vector.svg" alt="Git logo"/>
             <img className="prog-logo" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java logo" />
+            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C logo"/>
             <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1067px-ISO_C%2B%2B_Logo.svg.png" alt="C++ logo" />
             <img className="prog-logo" src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256" alt="Python logo" />
+            <img className="prog-logo" src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" alt="mySQL logo"/>
             <img className="prog-logo" src="https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png" alt="TypeScript logo" /> 
         </div>
         <div className="shelby">
@@ -78,7 +80,7 @@ function Home() {
         
             <p>
                 Sense you made it to the bottom here is a picture of Shelby! Isn't he just the best. You should also follow him  
-                on <a href="https://instagram.com/shelby.the.doggo">Instagram</a> because we love Shelby &lt;3.
+                on <a href="https://www.instagram.com/shelby.the.doggo">Instagram</a> because we love Shelby &lt;3.
             </p>
         </div> <br style={{clear: "both"}}/>
         <h2>Socials</h2>
@@ -87,7 +89,7 @@ function Home() {
                 <img src="/assets/github64x64.png"
                     alt="GitHub logo"/>
             </a>
-            <a href="https://youtube.com/sanicsquirtle420">
+            <a href="https://www.youtube.com/sanicsquirtle420">
                 <img src="/assets/youtube64x64.png"
                     alt="YouTube Logo" />
             </a>
@@ -95,7 +97,7 @@ function Home() {
                 <img src="/assets/x-twitter64x64.png" 
                     alt ="X / Twitter Logo"/>
             </a>
-            <a href="https://instagram.com/sanicsquirtle428">
+            <a href="https://www.instagram.com/sanicsquirtle428">
                 <img src="/assets/instagram64x64.png" 
                     alt ="Instagram Logo"/>
             </a>

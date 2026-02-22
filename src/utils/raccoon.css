@@ -43,6 +43,14 @@ p.italics {
 	color: #a6adc8 ;
 }
 
+span.code-line {
+	background-color: #1e1e2e ;
+	border-radius: 5px ;
+	font-family: monospace ;
+	color: #cdd6f4 ;
+	padding: 2px ;
+}
+
 td {
 	padding-right: 25px ;
 }
@@ -65,7 +73,7 @@ a:hover {
 
 /* Image CSS */
 img {
-	color: #0000ff ;
+	color: #a6e3a1 ;
 	font-family: monospace ;
 	padding-right: 15px ;
 }
@@ -100,8 +108,8 @@ img.wrap-right {
 }
 
 img.prog-logo {
-	height: 50px ;
-	width: 50px ;
+	height: 40px ;
+	/* width: auto ; */
 }
 
 img.loading-gif {
@@ -210,13 +218,12 @@ div {
 
 .prog {
 	display: flex ;
+	flex-wrap: wrap ;
 	align-items: center ;
 	justify-content: center ;
 }
 
 .prog img {
-	height: 45px ;
-	width: 45px ;
 	padding: 10px ;
 }
 

@@ -22,9 +22,32 @@ function Homelab() {
                 everything I have done within my homelab. The goal is to have everything set as monthly updates,
                 but knowing myself I won't be adding that many updates to this server every month. The link to 
                 my homelab is at <a href="https://raccoon2891.com">raccoon2891.com</a>. Most of the time FREE is 
-                turned off to not run up my parent's electricity bill, so 9 times out of 10 you will see a CloudFlare 
+                turned off to not run up my parent's electricity bill, so 9 times out of 10 you will see a Cloudflare 
                 error page saying that the host is not responding... because it is off.
             </p>
+
+            <h2>February 2026</h2>
+            <img src="https://64.media.tumblr.com/1038e1d555fe3d5ce3cdd67f5898c585/c93a853ce966412a-cf/s2048x3072/72060be37033e04ef22fffe73b505356f8a788cb.pnj" 
+                className="wrap-left" alt="Port diagram of my server"/>
+            <h3>Ports</h3>
+            <p>
+                This homelab section won't be updated monthly even though it might seem like it will, but I have decided to share
+                the way my ports are setup for my server. I set a static IP of <span className="code-line">192.168.1.100</span> so 
+                that I never forget what my server's IP is and because it just makes life easy plus it isn't too hard to setup. Now 
+                as of right now I can't just ssh into my server the normal way by 
+                using <span className="code-line">ssh raccoon@raccoon2891.com</span> because my ports aren't properly setup and I don't 
+                think that is neccessary right now. Anyways a diagram of my ports is on the left. Now I know none of this might be 
+                "standard" but if it works for me then I can careless about what ports are normally used. I might as well include this 
+                since this changed happened this month but the URL is custom! You are no longer
+                on <span className="code-line">sanicsquirtle420.github.io</span> because I bought the 
+                domain <span className="code-line">sanicsquirtle.com</span>. If only I didn't see that you could host GitHub pages on a 
+                custom URL then I wouldn't be giving <a href="https://domains.squarespace.com">Squarespace</a> my money but at least I am the
+                proud owner of <a href="https://raccoon2891.com">raccoon2891.com</a> and <a href="https://sanicsquirtle.com">sanicsquirtle.com</a>!
+                It was also a different situation fighting with <a href="https://cloudflare.com">Cloudflare</a> to get everything setup properly
+                especially HTTPS.
+            </p>
+            <p className="italics">Written by Diego R. - February 21, 2026</p>
+            <br style={{clear: "both"}}/>
             <h2>January 2026</h2>
             <h3>Minecraft Server Revival</h3>
             <p>
@@ -91,7 +114,7 @@ function Homelab() {
             </p>
             <p className="italics">Written by Diego R. - January 12, 2026</p>
             <h2>January - December 2024</h2>
-            <img src="https://64.media.tumblr.com/8483b8ebfeb46743d75d3f6f215fc3ee/e9a1efd051238021-47/s540x810/56b466a025511e526783b41ac724c5e6b4d0b358.pnj" 
+            <img src="https://64.media.tumblr.com/8483b8ebfeb46743d75d3f6f215fc3ee/e9a1efd051238021-47/s1280x1920/26341c5425d7295bdd911a71e0fa072678df1a66.pnj" 
                 className="wrap-right" alt="Picture of FREE"/>
             <h3>The Lore</h3>
             <p>
@@ -107,6 +130,7 @@ function Homelab() {
                 20.04 because I couldn't get <a href="https://rufus.ie">Rufus</a> to make a GPT bootable USB of Ubuntu Server LTS version 22.04 even
                 though I eventually updated it to LTS version 22.04. 
             </p>
+            <p className="italics">Written by Diego R. - January 29, 2026</p>
             <br style={{clear: "both"}}/>
             <table>
                 <tr>
@@ -130,7 +154,6 @@ function Homelab() {
                 </tr>
             </table>
             <p>Source: <a href="https://x.com/StrawHatPyro">StrawHatPyro</a></p> 
-            <p className="italics">Written by Diego R. - January 29, 2026</p>
         </div>
         <footer>
             {footerMsg()}

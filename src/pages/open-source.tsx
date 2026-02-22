@@ -15,28 +15,25 @@ const CodeBlock = ({ codeStr, lang }: CodeProps) => {
 	) ;
 } ;
 
-const testJava = `
-/* Test.java */
-public class Test {
-	public static void main(String[] args) {
-		System.out.println(juno()) ; 
-		System.out.println(kiriko("raccoon")) ;
-	}
-}
+const sample01 = `
+/* sample.c */
+#include <stdio.h>
 
-public static String juno() {
-	return "Welcome to orbit!" ;
-}
-	
-public static String kiriko(String name) {
-	return String.format("Let the Kitsune guide %s!", name) ;	
+int main(int argc, char* argv[])
+{
+	for(int i = 0; i < argc; i++)
+	{
+		printf(\"argc: %i, argv: %s\\n\", argc, argv) ;
+	}
+
+	return 0 ;
 }
 `;
 
 export default function Main() {
   return (
     <>
-    <title>Test dot tsx</title>
+    <title>Open Source</title>
     <header>
       <h1 className="title_header">
 			<img src="https://i.pinimg.com/1200x/35/8b/10/358b102e97749c98a168db79774c6988.jpg"
@@ -57,13 +54,15 @@ export default function Main() {
 	<p className="italics">Written by Diego R. - January 29, 2026</p>
 
 	<h2>Sample Code Block</h2>
-		<CodeBlock codeStr={testJava.trim()} lang="java"/>
+	<CodeBlock codeStr={sample01.trim()} lang="c"/>
 
 	<p>
-		On January 29, 2026 I decided to check if this code was correct, and turns out it wasn't
-		so I just fixed the mistakes in the code and it runs! I also added a package that adds
-		syntax highlighting because I might try to show some code off... eventually.
+		This code block might keep changing until I eventually make an open source contribution. With school being a thing
+		and not taking advantage of the time I had during the winter storm I haven't done anything. At least I am learning
+		cool stuff about operating systems so hopefully that gives me more knowledge with C to be more comfortable with 
+		contributing to the Linux kernel.
 	</p>
+	<p className="italics"> Updated by Diego R. - February 21, 2026 </p>
 	
     <footer>
             {footerMsg()}
