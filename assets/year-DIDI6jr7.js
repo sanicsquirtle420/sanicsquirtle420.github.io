@@ -1,0 +1,1 @@
+import{n as e}from"./index-ChFbRswD.js";var t=e();function n(){return(0,t.jsx)(`p`,{children:`This website is hosted by GitHub Pages - Diego R. (${new Date().getFullYear()})`})}export{n as t};
