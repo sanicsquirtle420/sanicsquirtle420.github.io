@@ -26,6 +26,26 @@ function Homelab() {
                 error page saying that the host is not responding... because it is off.
             </p>
 
+            <h2>May 2026</h2>
+            <img src="assets/server2026-06-14.png" className="wrap-right" alt="Screenshot of new server specs"/>
+            <h3>FREE Upgrade!</h3>
+            <p>
+                I know I am writing this update in June but this all happened in May. I have finally decided to upgrade FREE
+                with my brother's old gaming PC. As you can see in the screenshot, the hostname has changed too. Now the server's 
+                name is <span className="code-line">juno</span>. Which I guess follows a new theme because I have named many things
+                I own as characters I like for example, my headphones are "Yotsuba Nakano" and my earbuds are "Rio Futaba". Back to
+                talk about my new server, good thing I have started to document my progress on here because I used 
+                this to help bring the Juno server to life as if it was FREE. Now in the December 2025 update I mentioned that I was using 
+                Immich to store my photos. Well I switched back to <a href="https://www.photoprism.app/">Photoprism</a> because Immich was  
+                too heavy on my server and I couldn't get it to finally load and sort through all my pictures without having the server 
+                running for a long time. So far the switch to Photoprism hasn't been too bad the one thing I will miss from Immich is their 
+                native app that let you upload stuff for free, and so far for Photoprism there is a free app with a paid license to upload stuff 
+                to your OWN server. I also learned about <span className="code-line">/etc/hosts</span> so now I can just
+                type <span className="code-line">http://juno-server.home</span> to access my server without having to remember the IP address 
+                (even though I already memorized it).
+            </p>
+            <p className="italics">Written by Diego R. - June 14, 2026</p>
+            <br style={{clear: "both"}}/>
             <h2>February 2026</h2>
             <img src="https://64.media.tumblr.com/1038e1d555fe3d5ce3cdd67f5898c585/c93a853ce966412a-cf/s2048x3072/72060be37033e04ef22fffe73b505356f8a788cb.pnj" 
                 className="wrap-left" alt="Port diagram of my server"/>
